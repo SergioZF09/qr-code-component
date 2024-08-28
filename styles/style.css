@@ -40,20 +40,21 @@ body{
 
 .container__section__info__title{
     color: var(--color-state-900);
-    font-size: 22px;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 16px;
 }
 
 .container__section__info__paragraph{
     color: var(--color-state-500);
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: 400;
     letter-spacing: 0.2px;
+    padding: 0 8px;
 }
 
 .attribution {
-    font-size: 18px;
+    font-size: 1.2rem;
     text-align: center; 
     margin-top: auto;
     padding: 20px;
