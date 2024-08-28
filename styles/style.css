@@ -15,7 +15,7 @@
 
 body{
     background: var(--color-state-300);
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
 }
 
 .container{
