@@ -15,7 +15,7 @@
 
 body{
     background: var(--color-state-300);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit';
 }
 
 .container{
@@ -40,21 +40,20 @@ body{
 
 .container__section__info__title{
     color: var(--color-state-900);
-    font-size: 1.38rem;
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 16px;
 }
 
 .container__section__info__paragraph{
     color: var(--color-state-500);
-    font-size: 0.9rem;
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: 0.2px;
-    padding: 0 13px;
 }
 
 .attribution {
-    font-size: 1.2rem;
+    font-size: 18px;
     text-align: center; 
     margin-top: auto;
     padding: 20px;
