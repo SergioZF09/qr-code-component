@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --color-white: hsl(0, 0%, 100%);
+    --color-state-300: hsl(212, 45%, 89%);
+    --color-state-500: hsl(216, 15%, 48%);
+    --color-state-900: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--color-state-300);
+    font-family: 'Outfit', sans-serif;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+.card{
+    max-width: 20rem;
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 230px auto;
+    padding: 1rem 1rem 2.8rem;
+    border-radius: 1.4rem;
+}
+
+.card__section__qr__imageQr{
+    display: block;
+    max-width: 100%;
+    border-radius: 0.6rem;
+}
+
+.card__section__info__title{
+    color: var(--color-state-900);
+    font-size: 1.38rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card__section__info__paragraph{
+    color: var(--color-state-500);
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+    padding: 0 0.7rem;
+}
+
+.attribution {
+    font-size: 1.2rem;
+    text-align: center; 
+    margin-top: auto;
+    padding: 1.4rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
