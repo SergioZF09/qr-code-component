@@ -15,48 +15,52 @@
 
 body{
     background: var(--color-state-300);
-    font-family: 'Outfit';
-}
-
-.container{
-    width: 320px;
-    background: var(--color-white);
+    font-family: 'Outfit', sans-serif;
+    padding: 1rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    min-height: 100svh;
+}
+
+.card{
+    max-width: 20rem;
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     margin: 230px auto;
-    padding: 16px 16px 40px;
-    border-radius: 20px;
+    padding: 1rem 1rem 2.8rem;
+    border-radius: 1.4rem;
 }
 
-.container__section__qr__imageQr{
-    width: 288px;
-    height: 288px;
-    margin-bottom: 24px;
-    border-radius: 10px;
+.card__section__qr__imageQr{
+    display: block;
+    max-width: 100%;
+    border-radius: 0.6rem;
 }
 
-.container__section__info__title{
+.card__section__info__title{
     color: var(--color-state-900);
-    font-size: 22px;
+    font-size: 1.38rem;
     font-weight: 700;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
-.container__section__info__paragraph{
+.card__section__info__paragraph{
     color: var(--color-state-500);
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0.2px;
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+    padding: 0 0.7rem;
 }
 
 .attribution {
-    font-size: 18px;
+    font-size: 1.2rem;
     text-align: center; 
     margin-top: auto;
-    padding: 20px;
+    padding: 1.4rem;
 }
 
 .attribution a {
